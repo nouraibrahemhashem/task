@@ -1,0 +1,17 @@
+.home{
+    background-color: #1ABC9C;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: #FFFFFF;
+}
+.line {
+    width: 70px;
+    height: 5px;
+    background-color: black;
+}
+  
+  

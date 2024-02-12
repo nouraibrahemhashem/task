@@ -1,0 +1,35 @@
+.portfolio-item-layer {
+  background-color: #1abc9cd3;
+  position: absolute;
+  top: 0%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  display: flex;
+  cursor: zoom-in;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.5s;
+}
+.portfolio-item {
+  position: relative;
+}
+.portfolio-item-layer i {
+  font-size: 80px;
+}
+.portfolio-item:hover .portfolio-item-layer {
+  opacity: 1;
+}
+.modal-body {
+  cursor: auto;
+}
+.modal-content {
+  background-color: transparent;
+  border: none;
+  transform: translateY(10%);
+}
+.modal-body img {
+  position: relative;
+}
+  

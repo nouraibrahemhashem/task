@@ -1,0 +1,25 @@
+a {
+    font-size: 20px;
+    color: #fff;
+}
+ul {
+    padding: 10px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li {
+    list-style: none;
+}
+.icon {
+    padding: 12px;
+  
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+.footer {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 60px;
+}
